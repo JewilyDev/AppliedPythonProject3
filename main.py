@@ -5,7 +5,7 @@ from db import init_db
 from links_router import router as links_router
 
 
-app = FastAPI(title="HW2 URL Shortener", version="1.0.0")
+app = FastAPI(title="URL Shortener", version="1.0.0")
 
 
 @app.on_event("startup")

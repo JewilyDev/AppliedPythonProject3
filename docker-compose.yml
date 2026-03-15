@@ -3,7 +3,7 @@ version: "3.9"
 services:
   api:
     build: .
-    container_name: hw2_url_shortener
+    container_name: url_shortener
     ports:
       - "8000:8000"
     volumes:
